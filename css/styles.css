@@ -1,0 +1,204 @@
+
+
+body{
+  font-family: 'Montserrat-light', sans-serif;
+  font-weight: 300;
+}
+
+
+/* title section 1 */
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 4% 15% 8%;
+}
+
+/* navbar */
+
+.navbar{
+  padding: 0 0 10% 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: underline;;
+}
+
+.nav-link{
+  margin: auto 12px;
+  font-size: 1rem;
+}
+
+/* title buttons */
+
+.download-btn{
+  margin: 3rem 0.5rem;
+}
+
+
+/* title immage */
+
+.title-img{
+  width:60%;
+  margin-left: 60px;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+
+
+/* section 2 */
+
+#features{
+  padding:7% 15%;
+  position:relative;
+  background-color: #fff;
+}
+
+h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  }
+
+p{
+  color: #8f8f8f;
+}
+
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+
+.icon{
+
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* section 3 testimonials */
+
+#testimonials{
+  background-color:#ef8172;
+
+  text-align: center;
+  color: #fff;
+
+}
+
+h2{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-inner{
+  padding:7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+
+/* call to actions section 2nd last */
+
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  padding: 50px;
+
+}
+
+.cta-h{
+  color: #fff;
+  font-size: 3rem;
+  width: 65%;
+  margin: 1% auto 2% auto;
+
+
+
+}
+
+.cta-btn{
+  margin: 10px;
+}
+
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  padding: 7% 15%   ;
+}
+
+.foot-icon{
+  margin: 7px;
+  color:  #8f8f8f;
+}
+
+.foot-icon:hover{
+  color:black;
+  font-size: 1.2rem;
+}
+
+/* media query css topic boolean css if true then all this css properties applies
+generally for making websites moe responsive towards different viewports
+max width 1043 means 1043 and below width while
+min width 1043 means 1043 and more width chage comditions  */
+
+@media (max-width:1000px) {
+
+  #title{
+    text-align: center
+  }
+
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
